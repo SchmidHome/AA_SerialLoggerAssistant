@@ -1,0 +1,23 @@
+{
+    "name": "AA_TEMPLATE",
+    "version": "1.0.0",
+    "description": "TEMPLATE",
+    "keywords": "assistance, TEMPLATE",
+    "authors": {
+        "name": "Johannes Schmid"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SchmidHome/AA_TEMPLATE.git"
+    },
+    "dependencies": [{
+        "name": "AA_ArduinoAssistance",
+        "version": "https://github.com/SchmidHome/AA_ArduinoAssistance.git"
+    }, {
+        "name": "Logger",
+        "version": "https://github.com/SchmidHome/Logger.git"
+    }],
+    "license": "MIT",
+    "frameworks": "Arduino",
+    "platforms": "*"
+}
