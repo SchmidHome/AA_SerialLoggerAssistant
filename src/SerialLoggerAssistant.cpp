@@ -12,7 +12,7 @@ void SerialLoggerAssistant::_setup() {
 }
 
 void SerialLoggerAssistant::_loop() {
-    if (!buffer_empty() && serial.available()) {
+    if (!buffer_empty() && serial.availableForWrite()) {
         if (serial.print(logger_buffer))
             if (buffer_full())
                 create_overflow_message();

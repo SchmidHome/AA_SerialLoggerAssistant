@@ -1,6 +1,6 @@
 {
     "name": "AA_SerialLoggerAssistant",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Serial logger for Arduino",
     "keywords": "assistance, Serial logger",
     "authors": {
