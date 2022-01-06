@@ -3,9 +3,7 @@
 
 // -------------------------------------------------------------------------------- SerialLoggerAssistant
 SerialLoggerAssistant::SerialLoggerAssistant(HardwareSerial &serial, unsigned int setup_serial, bool set_default)
-    : serial(serial), setup_serial(setup_serial) {
-    if (set_default) deflogger = *this;
-}
+    : Logger(set_default), serial(serial), setup_serial(setup_serial) {}
 
 void SerialLoggerAssistant::_setup() {
     if (setup_serial)

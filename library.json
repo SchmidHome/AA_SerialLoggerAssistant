@@ -1,14 +1,14 @@
 {
-    "name": "AA_TEMPLATE",
-    "version": "1.0.0",
-    "description": "TEMPLATE",
-    "keywords": "assistance, TEMPLATE",
+    "name": "AA_SerialLoggerAssistant",
+    "version": "1.0.1",
+    "description": "Serial logger for Arduino",
+    "keywords": "assistance, Serial logger",
     "authors": {
         "name": "Johannes Schmid"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SchmidHome/AA_TEMPLATE.git"
+        "url": "https://github.com/SchmidHome/AA_SerialLoggerAssistant.git"
     },
     "dependencies": [{
         "name": "AA_ArduinoAssistance",
